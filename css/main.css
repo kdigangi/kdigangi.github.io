@@ -32,6 +32,12 @@ body {
 	text-align: center;
 }
 
+.top {
+    background: white;
+    z-index: 220;
+    position: relative;
+}
+
 .container {
     min-height: 100%;
     display: flex;
@@ -63,6 +69,10 @@ body {
     z-index: 2;
 }
 
+
+
+/* ARROWS */
+
 .fa-angle-down {
     font-size: 60px;
     display: block;
@@ -85,8 +95,9 @@ span {
     text-transform: uppercase;
 }
 
-/* SECTIONS */
 
+
+/* SECTIONS */
 
 h2 {
     font-size: 55px;
@@ -100,27 +111,14 @@ p {
     letter-spacing: 1px;
     margin: 0px auto;
     padding: 0px 0px 50px 0px;
-    max-width: 400px
-
-}
-
-.section_imgs img {
-    margin: 0px auto;
-    width: 50vh;
+    max-width: 400px;
 }
 
 section {
     position: relative;
-    height:100vh;
+    height: 100vh;
     box-shadow: 1px 1px 30px rgba(0,0,0,0.4);
 }
-
-.top {
-    background: white;
-    z-index: 220;
-    position: relative;
-}
-
 
 .bread {
     background: #D95959;
@@ -155,4 +153,18 @@ section {
 .mmm {
     background: #ED9905;
     z-index: 80;
+}
+
+.section_imgs {
+    margin: 0px auto;
+    position: absolute;
+    bottom: 10px;
+    margin: 0px auto;
+    width: 100%;
+    bottom: 140px;
+}
+
+.section_imgs img {
+    width: 50vh;
+
 }
