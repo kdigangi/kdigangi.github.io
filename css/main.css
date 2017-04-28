@@ -1,0 +1,154 @@
+/* Anatomy of a Sandwich */
+
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* NAVIGATION */
+/* attempt at making the sandwich "hamburger" with CSS
+
+nav {
+    display: inline-block;
+}
+
+.bar1, .bar2, .bar3, .bar4 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+*/
+
+/* HEADER */
+header {
+    background: white;
+    position: relative;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 220;}
+
+body {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin: 0px auto;
+}
+
+.element {
+    color: black;
+    opacity: .7;
+}
+
+#element-1 {
+	font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+#element-2 {
+    font-size: 130px;
+	font-family: 'Playfair Display', serif;
+    margin: -60px 0px 0px 0px; 
+    z-index: 2;
+}
+
+.fa-angle-down {
+    font-size: 60px;
+    color: #F2C129;
+    padding: 45px 0px 10px 0px;
+}
+
+.fa-angle-up {
+    font-size: 60px;
+    color: #F2C129;
+    padding: 45px 0px 10px 0px;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+/* SECTIONS */
+
+
+h2 {
+    font-size: 55px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+    padding: 45px 0px 10px 0px;
+    margin: 0px auto;
+}
+
+p {
+    letter-spacing: 1px;
+    margin: 0px auto;
+    padding: 0px 0px 50px 0px;
+    max-width: 400px
+
+}
+
+.section_imgs img {
+    margin: 0px auto;
+    width: 500px;
+}
+
+section {
+    position: relative;
+}
+
+.bread {
+    background: #D95959;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 200;
+}
+
+.meat {
+    background: #ED9905;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 180;
+}
+
+.lettuce {
+    background: #108BB1;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 160;
+}
+
+.cheese {
+    background: #16A086;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 140;
+}
+
+.tomatoes {
+    background: #F29B88;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 120;
+}
+
+.bread_cont {
+    background: #D95959;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 100;
+}
+
+.mmm {
+    background: #ED9905;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
+    z-index: 80;
+}

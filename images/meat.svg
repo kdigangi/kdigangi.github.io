@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="719.705 1871.856 320.972 207.424">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #772f16;
+      }
+
+      .cls-2 {
+        fill: #9d3c1b;
+      }
+    </style>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(719.705 1871.856)">
+    <path id="Path_1038" data-name="Path 1038" class="cls-1" d="M316.14,76.807C298.884,36.426,235.725,6.4,160.486,6.4S21.743,36.426,4.487,76.807H0V98.9c0,51.079,71.787,92.84,160.486,92.84s160.486-41.416,160.486-92.5V77.152H316.14Z" transform="translate(0 15.688)"/>
+    <ellipse id="Ellipse_298" data-name="Ellipse 298" class="cls-2" cx="160.486" cy="92.495" rx="160.486" ry="92.495" transform="translate(0 0)"/>
+    <ellipse id="Ellipse_299" data-name="Ellipse 299" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(231.583 53.495)"/>
+    <ellipse id="Ellipse_300" data-name="Ellipse 300" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(180.849 17.947)"/>
+    <ellipse id="Ellipse_301" data-name="Ellipse 301" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(162.557 79.725)"/>
+    <ellipse id="Ellipse_302" data-name="Ellipse 302" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(60.398 110.442)"/>
+    <ellipse id="Ellipse_303" data-name="Ellipse 303" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(270.238 92.495)"/>
+    <ellipse id="Ellipse_304" data-name="Ellipse 304" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(141.849 71.787)"/>
+    <ellipse id="Ellipse_305" data-name="Ellipse 305" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(106.646 38.31)"/>
+    <ellipse id="Ellipse_306" data-name="Ellipse 306" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(197.76 110.442)"/>
+    <ellipse id="Ellipse_307" data-name="Ellipse 307" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(221.919 140.123)"/>
+    <ellipse id="Ellipse_308" data-name="Ellipse 308" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(162.557 135.982)"/>
+    <ellipse id="Ellipse_309" data-name="Ellipse 309" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(86.628 135.982)"/>
+    <ellipse id="Ellipse_310" data-name="Ellipse 310" class="cls-1" cx="7.248" cy="4.142" rx="7.248" ry="4.142" transform="translate(56.256 67.646)"/>
+  </g>
+</svg>
