@@ -22,11 +22,7 @@ nav {
 */
 
 /* HEADER */
-header {
-    background: white;
-    position: relative;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
-    z-index: 220;}
+
 
 body {
     font-size: 14px;
@@ -37,7 +33,7 @@ body {
 }
 
 .container {
-    height: 600px;
+    min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,8 +65,14 @@ body {
 
 .fa-angle-down {
     font-size: 60px;
+    display: block;
     color: #F2C129;
     padding: 45px 0px 10px 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    margin: 0px auto;
+    width: 100%;
 }
 
 .fa-angle-up {
@@ -104,51 +106,53 @@ p {
 
 .section_imgs img {
     margin: 0px auto;
-    width: 500px;
+    width: 50vh;
 }
 
 section {
     position: relative;
+    height:100vh;
+    box-shadow: 1px 1px 30px rgba(0,0,0,0.4);
 }
+
+.top {
+    background: white;
+    z-index: 220;
+    position: relative;
+}
+
 
 .bread {
     background: #D95959;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 200;
 }
 
 .meat {
     background: #ED9905;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 180;
 }
 
 .lettuce {
     background: #108BB1;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 160;
 }
 
 .cheese {
     background: #16A086;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 140;
 }
 
 .tomatoes {
     background: #F29B88;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 120;
 }
 
 .bread_cont {
     background: #D95959;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 100;
 }
 
 .mmm {
     background: #ED9905;
-    box-shadow: 1px 1px 30px rgba(0,0,0,0.6);
     z-index: 80;
 }
