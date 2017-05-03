@@ -1,0 +1,52 @@
+#intro {
+	background:url("images/bread.svg") 0 no-repeat;
+	background-color:#fec56d;
+	background-position:center;
+	background-size:auto;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#intro a {
+	border:none;
+    color: #F2C129;
+	background-color:transparent;
+	opacity:0.6;
+	bottom:15px;
+    font-size:60px;
+	position:fixed;
+	left:50%;
+	width:30px;
+	margin-left:-15px;
+	z-index:20;
+}
+
+#intro a:hover {
+	opacity:1;
+}
+
+#bread{
+	background: url("images/bread.svg") 50% no-repeat fixed;
+	background-color: #D95959;
+	background-size:1071px;
+	color: white;
+	height: 120%;
+	width:100%;
+	margin: 0 auto;
+	padding-top:0;
+	overflow: hidden;
+	position:relative;
+}
+
+#bread .bg{
+	background: url("images/bread.svg") 50% 84.5% no-repeat fixed;
+	height: 120%;
+	padding: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 10;
+}

@@ -169,3 +169,9 @@ section {
     width: 50vh;
 
 }
+
+/*.scrolled {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}*/
