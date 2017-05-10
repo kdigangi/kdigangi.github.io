@@ -21,7 +21,23 @@ nav {
 
 */
 
+.sandwich {
+    background-image: url("../images/sandwich_icon.svg");
+    background-color: transparent;
+    background-size: 100% 100%;
+    border: none;
+    width: 40px;
+    height:40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10000000000000;
+    outline: none;
+}
 
+.sandwich:hover {
+    opacity: 0.5;
+}
 
 /* HEADER */
 
@@ -86,14 +102,19 @@ body {
     width: 100%;
 }
 
+.fa-angle-down:hover {
+    opacity: 0.5;
+}
+
 .fa-angle-up {
     font-size: 60px;
     color: #F2C129;
     padding: 45px 0px 0px 0px;
 }
 
-span {
+#pageup {
     text-transform: uppercase;
+    display: block;
 }
 
 
