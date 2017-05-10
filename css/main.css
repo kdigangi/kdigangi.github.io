@@ -89,7 +89,7 @@ body {
 .fa-angle-up {
     font-size: 60px;
     color: #F2C129;
-    padding: 45px 0px 10px 0px;
+    padding: 45px 0px 0px 0px;
 }
 
 span {
@@ -159,8 +159,6 @@ section {
 .section_imgs {
     margin: 0px auto;
     position: absolute;
-    bottom: 10px;
-    margin: 0px auto;
     width: 100%;
     bottom: 140px;
 }
@@ -170,8 +168,9 @@ section {
 
 }
 
-/*.scrolled {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-}*/
+#up {
+    margin: 0px auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
