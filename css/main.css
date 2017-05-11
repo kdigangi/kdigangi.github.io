@@ -9,6 +9,7 @@ body {
 	color: white;
 	margin: 0px 0px 0px 0px;
 	text-align: center;
+    overflow-x: hidden;
 }
 
 .top {
@@ -74,13 +75,22 @@ body {
     padding: 45px 0px 0px 0px;
 }
 
+.fa-angle-up:hover {
+    opacity: 0.5;
+}
+
 #pageup {
     text-transform: uppercase;
     display: block;
     padding: 0px 0px 25px 0px;
 }
 
+#pageup:hover {
+    opacity: 0.5;
+}
+
 #up {
+    display: block;
     margin: 0px auto;
     position: absolute;
     bottom: 0px;
@@ -176,27 +186,27 @@ section {
 }
 
 .nav-item {
-  width: 200px;
-  border-bottom: 1px solid #108BB1;
+    width: 200px;
+    border-bottom: 1px solid #108BB1;
 }
 
 .nav-item a {
-  display: block;
-  padding: 1em;
-  color: white;
-  font-size: 14px;
-  text-transform: uppercase;
-  line-height: 18px;
-  text-decoration: none;
-  transition: color 0.2s, background 0.5s;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-decoration: none;
+    transition: color 0.2s, background 0.5s;
 }
 
 .nav-item a:hover {
-  color: #108BB1;
-  background: none;
-  text-transform: lowercase;
-  font-family: 'Playfair Display', serif;
-  line-height: 18px;
+    color: #108BB1;
+    background: none;
+    text-transform: lowercase;
+    font-family: 'Playfair Display', serif;
+    line-height: 18px;
 
 }
 
@@ -227,6 +237,10 @@ label[for="nav-trigger"] {
     background-size: 100% 100%;
 }
 
+label[for="nav-trigger"]:hover {
+    opacity: 0.5;
+}
+
 .nav-trigger:checked + label {
     right: 230px;
 }
@@ -238,8 +252,4 @@ label[for="nav-trigger"] {
 
 .nav-trigger + label, .site-wrap {
     transition: right 0.2s;
-}
-
-body {
-    overflow-x: hidden;
 }

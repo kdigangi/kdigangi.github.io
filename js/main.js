@@ -30,3 +30,19 @@ $(document).ready(function() {
         anchors:['slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6', 'slide7','slide8']
     });
 });
+
+
+
+
+
+
+// $(document).scroll(function() {
+//   	$('#words').each(function(){
+//   	var imagePos = $(this).offset().top;
+
+//   	var topOfWindow = $(document).scrollTop();
+//   		if (imagePos < topOfWindow+400) {
+//   			$(this).addClass("animated slideInDown");
+//   		}
+//   	});
+// });
