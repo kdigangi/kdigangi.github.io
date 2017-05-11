@@ -166,9 +166,18 @@ section {
 
 .section_imgs img {
     width: 50vh;
-
+    animation: rock .5s infinite;
+    animation-direction: alternate;
 }
 
+@keyframes rock {
+  0% {
+    transform: rotateZ(-2deg);
+  }
+  50% {
+    transform: rotateZ(2deg);
+  }
+}
 
 
 /* SLIDE OUT NAV */
