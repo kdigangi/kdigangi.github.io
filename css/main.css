@@ -1,45 +1,5 @@
 /* Anatomy of a Sandwich */
 
-/* 
-font-family: 'Playfair Display', serif;
-font-family: 'Montserrat', sans-serif;
-*/
-
-/* NAVIGATION */
-/* attempt at making the sandwich "hamburger" with CSS
-
-nav {
-    display: inline-block;
-}
-
-.bar1, .bar2, .bar3, .bar4 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 3px 0;
-}
-
-*/
-
-/* ADD THIS BACK TO GET HAMBURGER MENU
-.sandwich {
-    background-image: url("../images/sandwich_icon.svg");
-    background-color: transparent;
-    background-size: 100% 100%;
-    border: none;
-    width: 40px;
-    height:40px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 10000000000000;
-    outline: none;
-}
-
-.sandwich:hover {
-    opacity: 0.5;
-}
-*/
 
 /* HEADER */
 
@@ -117,6 +77,14 @@ body {
 #pageup {
     text-transform: uppercase;
     display: block;
+    padding: 0px 0px 25px 0px;
+}
+
+#up {
+    margin: 0px auto;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 
@@ -191,18 +159,13 @@ section {
 
 }
 
-#up {
-    margin: 0px auto;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
+/* SLIDE OUT NAV */
 
-/* DELETE BELOW IF NAV DOESN'T WORK */
+
 
 .navigation {
     list-style: none;
-    background: lightblue;
+    background: #59BBD9;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -215,23 +178,28 @@ section {
 
 .nav-item {
   width: 200px;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #108BB1;
+  border-bottom: 1px solid #108BB1;
 }
 
 .nav-item a {
   display: block;
   padding: 1em;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
   color: white;
-  font-size: 1.2em;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 18px;
   text-decoration: none;
   transition: color 0.2s, background 0.5s;
 }
 
 .nav-item a:hover {
-  color: #c74438;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+  color: #108BB1;
+  background: none;
+  text-transform: lowercase;
+  font-family: 'Playfair Display', serif;
+  line-height: 18px;
+
 }
 
 .site-wrap {
@@ -268,5 +236,5 @@ label[for="nav-trigger"] {
 
 .nav-trigger:checked ~ .site-wrap {
     left: 200px;
-    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 3px #108BB1;
 }
